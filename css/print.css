@@ -1,0 +1,55 @@
+#middle, #rightcol {
+  display: none !important;
+}
+body {
+   background: white;
+   font-size: 12pt;
+   }
+body, #wrapper, #lower, #footer-wrap {
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+#tabs {
+   display: block !important;
+   }
+
+html body #lower {padding: 0 0 0.5em; margin: -1.5em 0 2em; text-align: left; background: none; position: relative;}
+
+.breakhere {page-break-before: always}
+
+a:link, a:visited {
+   color: #520;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;
+   }
+#lower a:link:after, #lower a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   }
+#lower a[href^="/"]:after {
+   content: " (http://www.midwestmechanical.net" attr(href) ") ";
+   }
+/*
+     FILE ARCHIVED ON 11:41:39 Jan 20, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:19:25 Feb 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.692
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.018
+  esindex: 0.016
+  cdx.remote: 83.431
+  LoadShardBlock: 1375.951 (3)
+  PetaboxLoader3.datanode: 1431.952 (5)
+  PetaboxLoader3.resolve: 4693.393 (3)
+  load_resource: 4875.295 (2)
+*/
